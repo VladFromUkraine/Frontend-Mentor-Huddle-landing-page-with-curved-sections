@@ -3,6 +3,7 @@ body, html {
   height: 100%;
 
 }
+
 .first {
   background-image: url("images/bg-hero-desktop.svg");
   width: 100%;
@@ -268,8 +269,11 @@ background-color: hsl(207, 100%, 98%);
 }
 .svg{
   position: relative;
-  top: 4px;
-  width: 1440px;
+  top: 6px;
+  width: 100%;
+}
+.svg-down{
+  width: 100%;
 }
 .ready {
   width: 60%;
@@ -278,6 +282,7 @@ background-color: hsl(207, 100%, 98%);
   align-items: center;
   padding-top: 70px;
   padding-bottom: 40px;
+  margin-bottom: 200px;
   position: relative;
   bottom: 40px;
   top: 85px;
@@ -311,9 +316,9 @@ background-color: hsl(207, 100%, 98%);
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: white;
-  padding-top: 60px;
+  padding-top: 0px;
   padding-bottom: 170px;
-  margin-top: 150px;
+  margin-top: 0px;
 }
 
 .bottom-logo {
@@ -827,5 +832,9 @@ form{
   i{
     margin-left: 15px;
     margin-top: 30px;
+  }
+  .svg-down{
+    width: 100%;
+    display: none;
   }
 }
