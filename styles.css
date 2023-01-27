@@ -719,7 +719,7 @@ padding-bottom: 40px;
 position: relative;
 top: 5px;
   display: block;
-
+width: 100%;
 
 }
   .bottom-logo {
@@ -775,9 +775,11 @@ padding-top: 50px;
   }
   .svg-mobile{
     display: block;
+    width: 100%
   }
   .svg-mobile-2{
     display: block;
+    width: 100%
   }
   .about {
     margin-left: 40px;
